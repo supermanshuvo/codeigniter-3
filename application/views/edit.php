@@ -20,12 +20,12 @@
 					<input class="form-control" type="text" name="title" value="<?php echo $data->title; ?>">
 				</div>
 
-				<div class="form-group">
+				<div class="form-group pt-3">
 					<label>Description</label>
 					<textarea class="form-control" name="description"><?php echo $data->description; ?></textarea>
 				</div>
 
-				<div class="form-group">
+				<div class="form-group pt-3">
 					<button type="submit" class="btn btn-success"> <i class="fas fa-check"></i> Submit </button>
 				</div>
 
